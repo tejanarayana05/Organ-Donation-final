@@ -1,0 +1,23 @@
+{
+  "name": "organ-donation-platform",
+  "version": "1.0.0",
+  "description": "A platform connecting organ donor and acceptor via ethereum blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "debug": "NODE_OPTIONS='--openssl-legacy-provider' next dev -p 5000"
+  },
+  "author": "Rama",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "expo": "^49.0.16",
+    "web3": "^1.6.1"
+  }
+}
